@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.main.HelloController">
+   <children>
+      <Label layoutX="66.0" layoutY="55.0" text="Name" />
+      <Label fx:id="nid" layoutX="140.0" layoutY="55.0" />
+      <Label layoutX="21.0" layoutY="88.0" text="Account Number" />
+      <Label fx:id="accid" layoutX="140.0" layoutY="88.0" />
+      <Label layoutX="52.0" layoutY="126.0" text="Bank Name" />
+      <Label fx:id="bankid" layoutX="140.0" layoutY="126.0" />
+      <Label layoutX="39.0" layoutY="169.0" text="Branch Name" />
+      <Label fx:id="branchid" layoutX="140.0" layoutY="169.0" />
+   </children>
+</AnchorPane>
