@@ -1,0 +1,35 @@
+.root{
+-fx-font-family:'Times New Roman';
+-fx-font-size:10pt;
+}
+.color_Vbox{
+-fx-background-color: #57596E;
+}
+.color_Hbox{
+-fx-background-color: #57596E;
+}
+.Left_button{
+-fx-background-color: #111022;
+-fx-font-size:12pt;
+-fx-text-fill: #FFFFFF;
+-fx-alignment:left;
+}
+.search_button{
+-fx-background-color: #111022;
+-fx-font-size:12pt;
+-fx-text-fill: #FFFFFF;
+-fx-alignment:left;
+}
+.Left_button:hover{
+-fx-background-color: #57596E;
+-fx-border-color:#161A34;
+-fx-border-width:0 3 0 3;
+}
+.box_color{
+--fx-background-color:#57596E;
+}
+.label_border{
+-fx-border-color:#161A34;
+-fx-border-width:1 1 1 1;
+}
+
